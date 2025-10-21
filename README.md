@@ -21,7 +21,7 @@ pip install pandas matplotlib
 
 ## Usage
 ```bash
-python 2.py  # or your main script name
+python 2.py  
 ```
 
 ## Results
