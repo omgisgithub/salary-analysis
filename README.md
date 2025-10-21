@@ -29,5 +29,3 @@ The analysis calculates: `Annual Salary (PPP-adjusted) - (12 × Monthly Housing 
 
 View the visualization for country comparisons.
 
----
-*Project created as part of data science portfolio building*
