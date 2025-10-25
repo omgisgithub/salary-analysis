@@ -36,6 +36,34 @@ country_mapping = {
     'SE': 'SWE',  # Sweden
     'US': 'USA',  # United States
 }
+Fullcountrymapping = {
+    'AUT': 'Austria',
+    'BEL': 'Belgium',
+    'BGR': 'Bulgaria',
+    'CHE': 'Switzerland',
+    'CZE': 'Czechia',
+    'DEU': 'Germany',
+    'DNK': 'Denmark',
+    'FIN': 'Finland',
+    'FRA': 'France',
+    'GBR': 'United Kingdom',
+    'GRC': 'Greece',
+    'HRV': 'Croatia',
+    'HUN': 'Hungary',
+    'IRL': 'Ireland',
+    'ISL': 'Iceland',
+    'ITA': 'Italy',
+    'LTU': 'Lithuania',
+    'LUX': 'Luxembourg',
+    'LVA': 'Latvia',
+    'MLT': 'Malta',
+    'NLD': 'Netherlands',
+    'NOR': 'Norway',
+    'POL': 'Poland',
+    'PRT': 'Portugal',
+    'SWE': 'Sweden',
+    'USA': 'United States',
+}
 #sorting and cleaning data 
 cleanppp = ppprate.drop(["Country Name","Indicator Name","Indicator Code","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017"],axis=1)
 countries = df[(df['currency']=='PPS') & (df['estruct']=='NET') & (df['TIME_PERIOD']>2015) & (df['Earnings case']=="Single person without children earning 167% of the average earning")]
@@ -153,15 +181,42 @@ def countries18_24():
     plt.tight_layout()
     plt.show()
 
+def t_test():
+    t_test_choice1 = input("Enter the first country code (e.g., AUT, DEU): ").upper().replace(" ", "")
+    t_test_choice2 = input("Enter the second country code (e.g., AUT, DEU): ").upper().replace(" ", "")
+    t_test_msh1 = pd.read_csv('countries18_24.csv')
+    t_test_msh2 = pd.read_csv('countries18_24.csv')
+    if t_test_choice1 not in t_test_msh1['Country Code'].values:
+        print(f" There are no {t_test_choice1} from dataset")
+        return
+    if t_test_choice2 not in t_test_msh2['Country Code'].values:
+        print(f" There are no {t_test_choice2} from dataset")
+        return
+    msh1 = t_test_msh1[t_test_msh1['Country Code'] == t_test_choice1]['salary_minus_housing']
+    msh2 = t_test_msh2[t_test_msh2['Country Code'] == t_test_choice2]['salary_minus_housing']
+    geo1 = Fullcountrymapping[t_test_choice1]
+    geo2 = Fullcountrymapping[t_test_choice2]
+    t_stat, p_value = stats.ttest_ind(msh1,msh2)
+    print(f"T-test between {geo1} and {geo2}:")
+    print(f"T-statistic: {t_stat}, P-value: {p_value}")
+    if p_value < 0.05:
+        print("The difference is statistically significant.")
+    else:
+        print("The difference is not statistically significant.")
+
+
 if __name__ == "__main__":
     print("Chose between two options:")
     print("1. many countries in 2024")
     print("2. a few countries from 2018 to 2024")
-    choice = input("Enter your choice (1 or 2): ")
+    print("3. You can also perform t-test on disposable income after housing costs between two countries from 2018 to 2024 by modifying the code.")
+    choice = input("Enter your choice (1, 2 or 3): ")
     if choice == "1":
         countries2024()
     elif choice == "2":
         countries18_24()
+    elif choice == "3":
+        t_test()
     else:
         print("Invalid choice.")
     
