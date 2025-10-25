@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
+from scipy import stats
 #data load 
 df = pd.read_csv('netearning.csv')
 housing = pd.read_csv('housing.csv')
@@ -138,6 +140,19 @@ def countries18_24():
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     plt.show()
+    #marginoferror
+    grouped = merged_df.groupby('Country Code')['salary_minus_housing']
+    mean_values = grouped.mean()
+    std_values = grouped.std()
+    margin_of_error = 1.96 * std_values / np.sqrt(7)
+    plt.figure(figsize=(10, 6))
+    plt.bar(mean_values.index, mean_values.values, yerr=margin_of_error, capsize=5,)
+    plt.xlabel('Country')
+    plt.ylabel('Average Disposable Income After Housing (€)')
+    plt.title('Disposable Income with 95% Confidence Intervals (2018-2024)')
+    plt.tight_layout()
+    plt.show()
+
 if __name__ == "__main__":
     print("Chose between two options:")
     print("1. many countries in 2024")
@@ -149,3 +164,4 @@ if __name__ == "__main__":
         countries18_24()
     else:
         print("Invalid choice.")
+    
