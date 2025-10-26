@@ -10,13 +10,27 @@ This project analyzes the effectiveness of living in different European countrie
 
 ## Key Finding
 Austria shows the highest disposable income after housing costs, followed by Germany and Switzerland.
-
 ## Limitations
-⚠️ **Important methodological note:** This analysis compares average country-level salaries with housing costs in major cities (often the most expensive in each country). This may skew results - for example, Vienna is Austria's only major city, while Switzerland's data uses Zurich prices but country-average salaries. Future versions should compare city-level salaries with city-level housing costs.
+
+This analysis has several methodological limitations:
+
+1. **Small sample size**: Only 7 years of data (2018-2024) limits statistical power
+2. **Temporal dependencies**: Annual data points are not independent - each year influences the next (autocorrelation)
+3. **Country-level vs city-level comparison**: Salaries are country averages while housing costs are from capital cities
+4. **Single income bracket**: Analysis focuses only on high earners (167% of average)
+5. **Time series methods**: Current t-tests don't account for trends and temporal structure
+
+## Future Work (Version 2.0)
+
+- Implement proper time series analysis (ARIMA, stationarity tests)
+- Expand to multiple income brackets
+- Add more countries and years of data
+- Use city-specific salary data
+- Apply bootstrap methods for better confidence intervals
 
 ## Requirements
 ```bash
-pip install pandas matplotlib
+pip install pandas matplotlib numpy scipy
 ```
 
 ## Usage
