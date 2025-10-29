@@ -12,13 +12,21 @@ This project analyzes the effectiveness of living in different European countrie
 Austria shows the highest disposable income after housing costs, followed by Germany and Switzerland.
 ## Limitations
 
-This analysis has several methodological limitations:
+### Mathematical Approximations
+- PPP conversion uses World Bank GDP PPP (не Eurostat CPL)
+- This may introduce 20-70% error for non-Eurozone countries
+- Results should be considered approximate, not exact
 
-1. **Small sample size**: Only 7 years of data (2018-2024) limits statistical power
-2. **Temporal dependencies**: Annual data points are not independent - each year influences the next (autocorrelation)
-3. **Country-level vs city-level comparison**: Salaries are country averages while housing costs are from capital cities
-4. **Single income bracket**: Analysis focuses only on high earners (167% of average)
-5. **Time series methods**: Current t-tests don't account for trends and temporal structure
+### Data Coverage
+- Salaries: country-level averages
+- Housing: capital city prices only
+- May not represent rural areas or smaller cities 
+
+### Future Work
+- Implement proper time series analysis (ARIMA)
+- Use Eurostat CPL for correct PPP conversion
+- Add more cities and income brackets
+
 
 ## Future Work (Version 2.0)
 
