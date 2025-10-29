@@ -13,7 +13,7 @@ Austria shows the highest disposable income after housing costs, followed by Ger
 ## Limitations
 
 ### Mathematical Approximations
-- PPP conversion uses World Bank GDP PPP (не Eurostat CPL)
+- PPP conversion uses World Bank GDP PPP (not Eurostat CPL)
 - This may introduce 20-70% error for non-Eurozone countries
 - Results should be considered approximate, not exact
 
