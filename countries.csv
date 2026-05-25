@@ -1,164 +1,155 @@
-,STRUCTURE_NAME,Time frequency,Currency,Earnings case,geo,Geopolitical entity (reporting),TIME_PERIOD,OBS_VALUE,Country Code,housing_col,housing_cost,salary_minus_housing
-0,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,AT,Austria,2018,43477.0,AUT,CH2018,866.4939622641508,33079.072452830194
-1,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,AT,Austria,2019,44168.42,AUT,CH2019,835.8475471698113,34138.249433962264
-2,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,AT,Austria,2020,45506.53,AUT,CH2020,812.7869888475838,35753.086133829
-3,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,AT,Austria,2021,47966.92,AUT,CH2021,775.9605026929981,38655.393967684024
-4,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,AT,Austria,2022,50765.88,AUT,CH2022,753.2010752688172,41727.46709677419
-5,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,AT,Austria,2023,53214.05,AUT,CH2023,908.6953656024717,42309.70561277034
-6,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,AT,Austria,2024,58249.64,AUT,CH2024,879.7956,47692.0928
-7,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BE,Belgium,2018,36901.18,BEL,CH2018,818.4929126213592,27079.26504854369
-8,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BE,Belgium,2019,37996.01,BEL,CH2019,780.5353905496626,28629.58531340405
-9,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BE,Belgium,2020,38872.26,BEL,CH2020,755.3034515819752,29808.6185810163
-10,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BE,Belgium,2021,38949.07,BEL,CH2021,742.1814432989692,30042.89268041237
-11,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BE,Belgium,2022,40663.78,BEL,CH2022,738.2949763033176,31804.24028436019
-12,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BE,Belgium,2023,43842.91,BEL,CH2023,787.536559139785,34392.47129032258
-13,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BE,Belgium,2024,45380.15,BEL,CH2024,788.4184,35919.1292
-14,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BG,Bulgaria,2018,17539.19,BGR,CH2018,179.41667648296595,15386.189882204408
-15,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BG,Bulgaria,2019,18988.17,BGR,CH2019,179.29272712385549,16836.65727451373
-16,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BG,Bulgaria,2020,20010.51,BGR,CH2020,181.52622028257872,17832.195356609052
-17,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BG,Bulgaria,2021,22418.6,BGR,CH2021,179.18693292208408,20268.35680493499
-18,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BG,Bulgaria,2022,24688.67,BGR,CH2022,179.67055082905105,22532.623390051387
-19,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BG,Bulgaria,2023,28011.0,BGR,CH2023,196.0231354006961,25658.722375191646
-20,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,BG,Bulgaria,2024,31435.99,BGR,CH2024,215.45698106797553,28850.506227184294
-21,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CH,Switzerland,2018,64027.45,CHE,CH2018,2546.795857200189,33465.899713597726
-22,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CH,Switzerland,2019,65005.97,CHE,CH2019,2525.8883471529034,34695.309834165164
-23,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CH,Switzerland,2020,65944.46,CHE,CH2020,2587.4840191670633,34894.651769995246
-24,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CH,Switzerland,2021,69670.1,CHE,CH2021,2376.458441467069,41152.598702395175
-25,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CH,Switzerland,2022,71247.13,CHE,CH2022,2372.6295014092943,42775.57598308847
-26,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CH,Switzerland,2023,74233.18,CHE,CH2023,2585.1020927922573,43211.95488649291
-27,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CH,Switzerland,2024,75910.42,CHE,CH2024,2624.666242728774,44414.42508725471
-28,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CZ,Czechia,2018,24526.12,CZE,CH2018,409.5319600875082,19611.7364789499
-29,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CZ,Czechia,2019,25811.5,CZE,CH2019,397.8944030641542,21036.76716323015
-30,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CZ,Czechia,2020,25373.22,CZE,CH2020,390.64147684431003,20685.52227786828
-31,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CZ,Czechia,2021,27124.62,CZE,CH2021,377.36834212051195,22596.199894553854
-32,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CZ,Czechia,2022,28284.8,CZE,CH2022,410.14804123868765,23363.02350513575
-33,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CZ,Czechia,2023,30175.16,CZE,CH2023,514.8919852886122,23996.456176536652
-34,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,CZ,Czechia,2024,31669.12,CZE,CH2024,475.6376964931171,25961.467642082593
-35,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DE,Germany,2018,44773.7,DEU,CH2018,841.6947091932459,34673.36348968105
-36,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DE,Germany,2019,45749.97,DEU,CH2019,827.6454631379961,35818.22444234405
-37,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DE,Germany,2020,45164.81,DEU,CH2020,799.9442671614099,35565.47879406308
-38,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DE,Germany,2021,47173.37,DEU,CH2021,772.5540681003586,37902.7211827957
-39,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DE,Germany,2022,50955.36,DEU,CH2022,802.6933081998116,41323.04030160226
-40,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DE,Germany,2023,54397.99,DEU,CH2023,967.2375764192141,42791.13908296943
-41,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DE,Germany,2024,57002.5,DEU,CH2024,869.9149000000001,46563.5212
-42,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DK,Denmark,2018,39005.68,DNK,CH2018,1504.307094949861,20953.99486060167
-43,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DK,Denmark,2019,39391.47,DNK,CH2019,1482.4306701799253,21602.301957840897
-44,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DK,Denmark,2020,40517.83,DNK,CH2020,1416.3228359518525,23521.95596857777
-45,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DK,Denmark,2021,42474.38,DNK,CH2021,1311.9063814833996,26731.503422199203
-46,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DK,Denmark,2022,41915.91,DNK,CH2022,1382.6045402397544,25324.65551712295
-47,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DK,Denmark,2023,44224.08,DNK,CH2023,1543.7275804837636,25699.349034194838
-48,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,DK,Denmark,2024,45889.05,DNK,CH2024,1444.9883809005992,28549.18942919281
-49,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FI,Finland,2018,37210.73,FIN,CH2018,829.2082061446976,27260.231526263633
-50,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FI,Finland,2019,37883.77,FIN,CH2019,806.575139442231,28204.868326693224
-51,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FI,Finland,2020,39012.98,FIN,CH2020,772.1706876227898,29746.931748526527
-52,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FI,Finland,2021,40007.05,FIN,CH2021,740.6579541108986,31119.15455066922
-53,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FI,Finland,2022,41251.69,FIN,CH2022,757.6030693069307,32160.45316831683
-54,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FI,Finland,2023,43157.24,FIN,CH2023,828.3779104477613,33216.705074626865
-55,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FI,Finland,2024,43835.34,FIN,CH2024,751.39148,34818.64224
-56,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FR,France,2018,37426.41,FRA,CH2018,1263.9509426627792,22258.998688046653
-57,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FR,France,2019,38121.61,FRA,CH2019,1175.4509970958375,24016.19803484995
-58,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FR,France,2020,37172.11,FRA,CH2020,1133.1268441064637,23574.587870722436
-59,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FR,France,2021,38413.34,FRA,CH2021,1139.0267168391347,24745.01939793038
-60,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FR,France,2022,41324.79,FRA,CH2022,1123.6146754468487,27841.413894637815
-61,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FR,France,2023,43137.04,FRA,CH2023,1223.9216064257027,28449.980722891567
-62,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,FR,France,2024,44295.24,FRA,CH2024,1195.94352,29943.917759999997
-63,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HR,Croatia,2018,20052.47,HRV,CH2018,31.82612074935531,19670.556551007736
-64,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HR,Croatia,2019,20483.73,HRV,CH2019,29.641767980303836,20128.028784236354
-65,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HR,Croatia,2020,21480.35,HRV,CH2020,28.80826183962698,21134.650857924476
-66,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HR,Croatia,2021,23525.01,HRV,CH2021,28.73834512048997,23180.14985855412
-67,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HR,Croatia,2022,24446.35,HRV,CH2022,27.540591011390656,24115.86290786331
-68,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HR,Croatia,2023,26812.98,HRV,CH2023,0.0,26812.98
-69,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HR,Croatia,2024,29440.56,HRV,CH2024,0.0,29440.56
-70,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HU,Hungary,2018,21742.99,HUN,CH2018,267.12522219794744,18537.48733362463
-71,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HU,Hungary,2019,23273.12,HUN,CH2019,255.27775848662955,20209.786898160444
-72,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HU,Hungary,2020,24067.62,HUN,CH2020,269.46410370149147,20834.050755582102
-73,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HU,Hungary,2021,24678.8,HUN,CH2021,248.63050526750706,21695.233936789915
-74,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HU,Hungary,2022,26465.79,HUN,CH2022,228.89085178131438,23719.09977862423
-75,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HU,Hungary,2023,28737.41,HUN,CH2023,297.2297702748098,25170.652756702282
-76,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,HU,Hungary,2024,32470.41,HUN,CH2024,316.8859525489638,28667.778569412432
-77,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IE,Ireland,2018,38062.12,IRL,CH2018,1435.6182921960071,20834.700493647917
-78,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IE,Ireland,2019,40960.42,IRL,CH2019,1550.2478699902251,22357.445560117296
-79,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IE,Ireland,2020,40054.31,IRL,CH2020,1543.933860418744,21527.10367497507
-80,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IE,Ireland,2021,42250.53,IRL,CH2021,1386.4582779316713,25613.030664819944
-81,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IE,Ireland,2022,43382.9,IRL,CH2022,1305.6770106856634,27714.775871772043
-82,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IE,Ireland,2023,46613.47,IRL,CH2023,1489.994434529583,28733.536785645003
-83,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IE,Ireland,2024,48907.47,IRL,CH2024,1509.4284559999999,30794.328528000002
-84,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IS,Iceland,2018,45053.09,ISL,CH2018,2200.4786931277217,18647.345682467334
-85,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IS,Iceland,2019,45398.69,ISL,CH2019,2089.8581434227754,20320.392278926698
-86,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IS,Iceland,2020,47928.49,ISL,CH2020,1881.208426910439,25353.98887707473
-87,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IS,Iceland,2021,48787.96,ISL,CH2021,1823.2500380491724,26908.959543409932
-88,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IS,Iceland,2022,50720.9,ISL,CH2022,1736.922838123809,29877.825942514293
-89,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IS,Iceland,2023,53488.07,ISL,CH2023,1932.981911476747,30292.287062279036
-90,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IS,Iceland,2024,56615.35,ISL,CH2024,2109.13405323022,31305.741361237357
-91,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IT,Italy,2018,30376.84,ITA,CH2018,1027.9964788732393,18040.88225352113
-92,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IT,Italy,2019,31205.92,ITA,CH2019,971.918918918919,19542.89297297297
-93,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IT,Italy,2020,31858.24,ITA,CH2020,930.7536800785082,20689.195839057902
-94,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IT,Italy,2021,32799.16,ITA,CH2021,915.1551219512196,21817.298536585367
-95,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IT,Italy,2022,33944.29,ITA,CH2022,869.8612716763006,23505.954739884393
-96,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IT,Italy,2023,35432.21,ITA,CH2023,924.0844027640671,24343.197166831193
-97,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,IT,Italy,2024,36793.11,ITA,CH2024,916.1775,25798.98
-98,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LT,Lithuania,2018,20988.19,LTU,CH2018,0.0,20988.19
-99,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LT,Lithuania,2019,23152.08,LTU,CH2019,0.0,23152.08
-100,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LT,Lithuania,2020,24570.42,LTU,CH2020,0.0,24570.42
-101,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LT,Lithuania,2021,26362.71,LTU,CH2021,0.0,26362.71
-102,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LT,Lithuania,2022,27127.85,LTU,CH2022,0.0,27127.85
-103,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LT,Lithuania,2023,29297.91,LTU,CH2023,0.0,29297.91
-104,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LT,Lithuania,2024,31698.36,LTU,CH2024,0.0,31698.36
-105,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LU,Luxembourg,2018,48801.34,LUX,CH2018,1307.7767507002802,33108.01899159663
-106,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LU,Luxembourg,2019,47673.7,LUX,CH2019,1243.0134877384196,32757.538147138963
-107,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LU,Luxembourg,2020,47980.86,LUX,CH2020,1207.8317030567684,33486.879563318784
-108,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LU,Luxembourg,2021,48185.29,LUX,CH2021,1208.6373134328358,33681.64223880597
-109,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LU,Luxembourg,2022,50613.82,LUX,CH2022,1233.5857664233579,35810.790802919706
-110,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LU,Luxembourg,2023,54539.98,LUX,CH2023,1548.8943894389438,35953.24732673268
-111,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LU,Luxembourg,2024,56295.6,LUX,CH2024,1390.3923,39610.8924
-112,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LV,Latvia,2018,18438.26,LVA,CH2018,0.0,18438.26
-113,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LV,Latvia,2019,19489.81,LVA,CH2019,0.0,19489.81
-114,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LV,Latvia,2020,20578.68,LVA,CH2020,0.0,20578.68
-115,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LV,Latvia,2021,24082.71,LVA,CH2021,0.0,24082.71
-116,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LV,Latvia,2022,24195.28,LVA,CH2022,0.0,24195.28
-117,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LV,Latvia,2023,26417.6,LVA,CH2023,0.0,26417.6
-118,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,LV,Latvia,2024,28902.57,LVA,CH2024,0.0,28902.57
-119,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,MT,Malta,2018,34177.25,MLT,CH2018,0.0,34177.25
-120,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,MT,Malta,2019,36667.91,MLT,CH2019,0.0,36667.91
-121,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,MT,Malta,2020,36470.49,MLT,CH2020,0.0,36470.49
-122,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,MT,Malta,2021,32956.23,MLT,CH2021,0.0,32956.23
-123,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,MT,Malta,2022,35711.17,MLT,CH2022,0.0,35711.17
-124,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,MT,Malta,2023,37687.61,MLT,CH2023,0.0,37687.61
-125,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,MT,Malta,2024,41977.82,MLT,CH2024,0.0,41977.82
-126,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NL,Netherlands,2018,46807.27,NLD,CH2018,1275.6275068618481,31499.73991765782
-127,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NL,Netherlands,2019,47194.01,NLD,CH2019,1284.846599813433,31775.850802238805
-128,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NL,Netherlands,2020,49942.36,NLD,CH2020,1242.9178333333334,35027.346
-129,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NL,Netherlands,2021,51950.57,NLD,CH2021,1162.493733624454,38000.64519650655
-130,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NL,Netherlands,2022,54459.63,NLD,CH2022,1152.9128155339806,40624.67621359223
-131,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NL,Netherlands,2023,56686.93,NLD,CH2023,1395.4523955147808,39941.50125382263
-132,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NL,Netherlands,2024,59899.69,NLD,CH2024,1343.32415,43779.800200000005
-133,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NO,Norway,2018,46666.51,NOR,CH2018,1390.7583954146496,29977.409255024206
-134,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NO,Norway,2019,47466.31,NOR,CH2019,1309.4837228546703,31752.505325743954
-135,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NO,Norway,2020,47666.76,NOR,CH2020,1206.1908947340482,33192.46926319142
-136,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NO,Norway,2021,50412.8,NOR,CH2021,1145.5169551111135,36666.59653866664
-137,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NO,Norway,2022,52546.47,NOR,CH2022,1128.243211561872,39007.551461257535
-138,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NO,Norway,2023,55713.9,NOR,CH2023,1125.116677653833,42212.499868154
-139,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,NO,Norway,2024,58411.66,NOR,CH2024,1123.4773499182677,44929.93180098079
-140,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PL,Poland,2018,26723.31,POL,CH2018,338.69693754470694,22658.946749463517
-141,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PL,Poland,2019,28300.74,POL,CH2019,319.9671259353269,24461.13448877608
-142,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PL,Poland,2020,31421.13,POL,CH2020,304.38573789696215,27768.501145236456
-143,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PL,Poland,2021,30013.54,POL,CH2021,309.4082519837695,26300.640976194765
-144,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PL,Poland,2022,32954.15,POL,CH2022,306.9850452449614,29270.329457060463
-145,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PL,Poland,2023,34932.43,POL,CH2023,354.54178496432354,30677.928580428117
-146,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PL,Poland,2024,38000.28,POL,CH2024,404.1010303245889,33151.06763610493
-147,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PT,Portugal,2018,21450.39,PRT,CH2018,776.8272892112421,12128.462529465094
-148,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PT,Portugal,2019,22238.89,PRT,CH2019,750.9368181818182,13227.64818181818
-149,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PT,Portugal,2020,21832.21,PRT,CH2020,748.3662683823529,12851.814779411765
-150,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PT,Portugal,2021,23215.13,PRT,CH2021,741.0493601462522,14322.537678244975
-151,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PT,Portugal,2022,24587.06,PRT,CH2022,699.009325044405,16198.948099467141
-152,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PT,Portugal,2023,26577.12,PRT,CH2023,740.3595194085028,17692.805767097965
-153,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,PT,Portugal,2024,29479.67,PRT,CH2024,789.735,20002.85
-154,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,SE,Sweden,2018,37060.24,SWE,CH2018,1107.5882209308363,23769.181348829963
-155,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,SE,Sweden,2019,37746.33,SWE,CH2019,1004.4123912034935,25693.38130555808
-156,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,SE,Sweden,2020,38657.67,SWE,CH2020,980.6060928298969,26890.396886041235
-157,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,SE,Sweden,2021,39807.3,SWE,CH2021,950.8278163795084,28397.366203445905
-158,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,SE,Sweden,2022,41331.28,SWE,CH2022,971.7494627426996,29670.2864470876
-159,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,SE,Sweden,2023,43669.95,SWE,CH2023,1024.1157506335392,31380.560992397528
-160,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,SE,Sweden,2024,45486.11,SWE,CH2024,953.9940756577429,34038.18109210709
-161,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,UK,United Kingdom,2018,43835.85,GBR,CH2018,0.0,43835.85
-162,Annual net earnings,Annual,Purchasing Power Standard,Single person without children earning 167% of the average earning,UK,United Kingdom,2019,45701.84,GBR,CH2019,0.0,45701.84
+STRUCTURE_NAME,Time frequency,Currency,Earnings case,geo,Geopolitical entity (reporting),TIME_PERIOD,OBS_VALUE,Country Code,housing_col,housing_cost_EUR,salary_minus_housing_EUR,ppp_factor,salary_minus_housing
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,AT,Austria,2018,31640.93,AUT,CH2018,875.0546071105599,21140.27471467328,0.765403,27619.795995930617
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,AT,Austria,2019,32325.12,AUT,CH2019,927.5578835371934,21194.425397553678,0.738332,28705.819871756445
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,AT,Austria,2020,33032.37,AUT,CH2020,998.0522826860201,21055.74260776776,0.728799,28891.01467999786
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,AT,Austria,2021,33712.2,AUT,CH2021,1111.8302429122266,20370.23708505328,0.72035,28278.249580139207
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,AT,Austria,2022,36075.61,AUT,CH2022,1240.802551090045,21185.979386919462,0.700477,30245.07498021985
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,AT,Austria,2023,38375.91,AUT,CH2023,1204.8192771084337,23918.0786746988,0.735286,32528.946117155505
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,AT,Austria,2024,41747.41,AUT,CH2024,1200.0,27347.410000000003,0.733163,37300.586636259606
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BE,Belgium,2018,29240.96,BEL,CH2018,855.7706947101107,18971.711663478673,0.766407,24754.09496974672
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BE,Belgium,2019,30188.71,BEL,CH2019,887.4342104143849,19539.49947502738,0.735832,26554.29428867918
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BE,Belgium,2020,30539.81,BEL,CH2020,925.5938814622033,19432.683422453563,0.716165,27134.3662737687
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BE,Belgium,2021,31063.95,BEL,CH2021,987.6086715201707,19212.645941757954,0.719916,26687.343998130273
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BE,Belgium,2022,32889.21,BEL,CH2022,1041.92714845378,20386.08421855464,0.708092,28790.163168846193
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BE,Belgium,2023,35438.98,BEL,CH2023,1065.891472868217,22648.2823255814,0.732409,30922.99838694145
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BE,Belgium,2024,36672.38,BEL,CH2024,1100.0,23472.379999999997,0.716744,32748.62433449041
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BG,Bulgaria,2018,5447.1,BGR,CH2018,313.20574228048264,1688.6310926342085,0.34774214023789396,4855.9863681721135
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BG,Bulgaria,2019,6093.02,BGR,CH2019,331.99808681731156,2109.0429581922617,0.3455459831841579,6103.508826112594
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BG,Bulgaria,2020,6612.77,BGR,CH2020,347.26999881090796,2445.530014269105,0.3452298662101406,7083.773026695542
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BG,Bulgaria,2021,7456.68,BGR,CH2021,377.4824887074569,2926.890135510517,0.3541385383387371,8264.816783964125
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BG,Bulgaria,2022,8569.19,BGR,CH2022,429.575072149086,3414.2891342109688,0.3717547033517456,9184.252689818555
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BG,Bulgaria,2023,9890.39,BGR,CH2023,472.1030042918455,4225.153948497854,0.39168986510066367,10786.988188759993
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,BG,Bulgaria,2024,11073.9,BGR,CH2024,550.0,4473.9,0.39173996557813734,11420.586085459348
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CH,Switzerland,2018,64808.97,CHE,CH2018,2068.4357606160047,39987.740872607945,1.0207002851813987,39176.77054974206
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CH,Switzerland,2019,68324.09,CHE,CH2019,2144.9678837587967,42584.475394894434,1.0192008622558602,41782.22072991538
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CH,Switzerland,2020,72035.35,CHE,CH2020,2198.5920808527667,45652.245029766804,1.03197319830593,44237.82042470558
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CH,Switzerland,2021,73724.38,CHE,CH2021,2323.9118294613745,45837.43804646351,0.977399444603382,46897.344069050334
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CH,Switzerland,2022,78452.97,CHE,CH2022,2472.6421865469024,48781.26376143717,0.9822870776262606,49660.90348996468
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CH,Switzerland,2023,82060.07,CHE,CH2023,2527.0403146509343,51735.586224188795,1.0280055793127187,50326.17260577227
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CH,Switzerland,2024,85631.07,CHE,CH2024,2570.0,54791.07000000001,1.0212709115676162,53649.88797722396
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CZ,Czechia,2018,11256.33,CZE,CH2018,539.2964009789064,4784.773188253123,0.4823771243547005,9919.154426433362
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CZ,Czechia,2019,11992.68,CZE,CH2019,588.9116698689658,4925.739961572412,0.47125888085255574,10452.301615327104
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CZ,Czechia,2020,11974.4,CZE,CH2020,638.380250137959,4313.836998344492,0.45927913329634723,9392.625716267874
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CZ,Czechia,2021,13969.74,CZE,CH2021,764.1411594151369,4800.046087018356,0.4899239756163263,9797.532527327081
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CZ,Czechia,2022,15703.05,CZE,CH2022,893.281015356295,4983.677815724459,0.5200250110716116,9583.53484855398
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CZ,Czechia,2023,17265.6,CZE,CH2023,878.0952380952381,6728.457142857142,0.5489575070918719,12256.790472729774
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,CZ,Czechia,2024,17290.99,CZE,CH2024,922.0,6226.990000000002,0.5158760265652029,12070.710169380116
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DE,Germany,2018,30419.87,DEU,CH2018,1001.2536665330593,18404.826001603287,0.735448,25025.32606194223
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DE,Germany,2019,31486.26,DEU,CH2019,1059.3263791919767,18774.34344969628,0.717745,26157.400538765552
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DE,Germany,2020,31292.95,DEU,CH2020,1141.9538367689509,17589.50395877259,0.706836,24884.844516652505
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DE,Germany,2021,32850.2,DEU,CH2021,1274.4204818341493,17557.154217990206,0.706697,24843.96313836086
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DE,Germany,2022,35596.73,DEU,CH2022,1352.1601312260323,19370.808425287614,0.69808,27748.69416870217
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DE,Germany,2023,37908.41,DEU,CH2023,1238.5786802030457,23045.465837563454,0.726221,31733.405998399183
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DE,Germany,2024,39594.13,DEU,CH2024,1220.0,24954.129999999997,0.713045,34996.571043903255
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DK,Denmark,2018,36307.24,DNK,CH2018,1396.2845354238348,19551.82557491398,0.9078015070102051,21537.55575853454
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DK,Denmark,2019,37133.59,DNK,CH2019,1427.0027952031587,20009.556457562092,0.8757480606496438,22848.53070952699
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DK,Denmark,2020,37878.85,DNK,CH2020,1488.3639153968948,20018.48301523726,0.8538871201721284,23443.94539081687
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DK,Denmark,2021,39315.61,DNK,CH2021,1659.5257656675376,19401.30081198955,0.8455350377768732,22945.590596695445
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DK,Denmark,2022,40710.04,DNK,CH2022,1737.5234766539118,19859.75828015306,0.8367554645266029,23734.243900502977
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DK,Denmark,2023,42357.77,DNK,CH2023,1671.497584541063,22299.79898550724,0.8584196141187171,25977.737016646544
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,DK,Denmark,2024,43912.73,DNK,CH2024,1730.0,23152.730000000003,0.8352533993645082,27719.40828689289
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FI,Finland,2018,31400.22,FIN,CH2018,998.538722563115,19417.75532924262,0.853746,22744.183081669045
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FI,Finland,2019,32135.14,FIN,CH2019,1002.5328774533674,20104.74547055959,0.826328,24330.224161059035
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FI,Finland,2020,33191.98,FIN,CH2020,1020.5784692475282,20945.038369029666,0.802112,26112.36132738279
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FI,Finland,2021,33906.14,FIN,CH2021,1067.5250788329145,21095.839054005024,0.790539,26685.386874025222
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FI,Finland,2022,35001.16,FIN,CH2022,1078.2003296212438,22062.75604454508,0.780795,28256.78448830369
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FI,Finland,2023,36266.13,FIN,CH2023,1011.3519091847265,24129.90708978328,0.792876,30433.393228932742
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FI,Finland,2024,36876.61,FIN,CH2024,980.0,25116.61,0.766726,32758.2604476697
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FR,France,2018,27662.94,FRA,CH2018,1460.3610157775015,10138.607810669982,0.756166,13407.91282690571
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FR,France,2019,28153.78,FRA,CH2019,1508.5529292981594,10051.144848422085,0.705954,14237.676744408398
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FR,France,2020,27472.33,FRA,CH2020,1586.9976816216638,8428.357820540037,0.693052,12161.2199669578
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FR,France,2021,28649.83,FRA,CH2021,1686.9785355638282,8406.087573234065,0.703945,11941.398224625595
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FR,France,2022,30241.44,FRA,CH2022,1793.2581833043494,8722.341800347807,0.69442,12560.614326125122
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FR,France,2023,31573.51,FRA,CH2023,1786.0851505711319,10140.488193146415,0.708736,14307.849739742887
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,FR,France,2024,32353.63,FRA,CH2024,1720.0,11713.630000000001,0.695316,16846.484188484086
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HR,Croatia,2018,9168.35,HRV,CH2018,319.0743436040233,5339.457876751721,0.059241252833449096,90130.73865542779
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HR,Croatia,2019,9428.49,HRV,CH2019,347.79103452838535,5254.9975856593755,0.05668338087461611,92707.90670167423
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HR,Croatia,2020,9815.98,HRV,CH2020,374.5709441870711,5321.128669755146,0.0544324526338215,97756.54802019472
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HR,Croatia,2021,10382.66,HRV,CH2021,401.9146231127273,5559.684522647272,0.05409867423558901,102769.3303247312
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HR,Croatia,2022,11224.52,HRV,CH2022,461.39798733341104,5687.744151999068,0.05546771663346749,102541.5231995914
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HR,Croatia,2023,12601.07,HRV,CH2023,516.3043478260869,6405.417826086958,0.443425602169302,14445.304454119767
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HR,Croatia,2024,13809.88,HRV,CH2024,570.0,6969.879999999999,0.455160612697055,15313.01216662831
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HU,Hungary,2018,8586.94,HUN,CH2018,328.7262399168417,4642.2251209979,0.4361773271032198,10642.97668067312
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HU,Hungary,2019,9390.54,HUN,CH2019,384.6097007027047,4775.223591567545,0.4266785391847951,11191.618872350617
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HU,Hungary,2020,9549.21,HUN,CH2020,403.45557603713723,4707.743087554352,0.4038112068326637,11658.277452178798
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HU,Hungary,2021,10074.96,HUN,CH2021,470.0257460832649,4434.651047000821,0.413792198052351,10717.096813023454
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HU,Hungary,2022,10667.45,HUN,CH2022,574.8414874598329,3769.3521504820055,0.3999050167550678,9425.618565797196
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HU,Hungary,2023,12719.75,HUN,CH2023,615.655233069481,5331.887203166228,0.45476154852045897,11724.577903547963
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,HU,Hungary,2024,13883.04,HUN,CH2024,700.0,5483.040000000001,0.45269421792709114,12112.016860094012
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IE,Ireland,2018,35126.52,IRL,CH2018,1430.5560612118352,17959.847265457975,0.792214,22670.44922894316
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IE,Ireland,2019,38252.2,IRL,CH2019,1463.4588506197074,20690.693792563507,0.794143,26054.115937008202
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IE,Ireland,2020,38842.71,IRL,CH2020,1467.849227171566,21228.519273941205,0.775446,27375.88339348092
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IE,Ireland,2021,39930.32,IRL,CH2021,1589.6807130268057,20854.151443678333,0.751895,27735.45700354216
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IE,Ireland,2022,41062.91,IRL,CH2022,1785.211440729103,19640.372711250766,0.734239,26749.291049986132
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IE,Ireland,2023,43896.82,IRL,CH2023,1840.552995391705,21810.184055299538,0.769246,28352.6778888672
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IE,Ireland,2024,46207.8,IRL,CH2024,1997.0,22243.800000000003,0.755848,29428.93280130397
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IS,Iceland,2018,48794.28,ISL,CH2018,1225.827265573769,34084.352813114776,1.1022768268352754,30921.772084217417
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IS,Iceland,2019,47254.37,ISL,CH2019,1279.763665259015,31897.206016891825,1.0100981026543414,31578.324850895344
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IS,Iceland,2020,44185.83,ISL,CH2020,1361.668539835592,27845.8075219729,0.9266693362188458,30049.346011160906
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IS,Iceland,2021,47374.82,ISL,CH2021,1531.8771073150406,28992.29471221951,0.9496093948172772,30530.758089012143
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IS,Iceland,2022,53001.86,ISL,CH2022,1853.5712998511992,30759.00440178561,0.9729984417267633,31612.593692542963
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IS,Iceland,2023,54539.33,ISL,CH2023,1998.149861239593,30561.531665124887,0.9647011576721914,31679.791635027552
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IS,Iceland,2024,57573.09,ISL,CH2024,2160.0,31653.089999999997,0.9764509505695464,32416.46698335161
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IT,Italy,2018,21294.82,ITA,CH2018,1324.7722588357933,5397.55289397048,0.681219,7923.373972203476
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IT,Italy,2019,21500.18,ITA,CH2019,1323.4474865769578,5618.810161076508,0.647298,8680.407109363086
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IT,Italy,2020,22507.69,ITA,CH2020,1348.5929888219198,6324.574134136961,0.632292,10002.616092148819
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IT,Italy,2021,23511.64,ITA,CH2021,1382.3078135424676,6923.946237490389,0.625356,11072.007364589752
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IT,Italy,2022,23839.29,ITA,CH2022,1434.8355104570812,6621.263874515025,0.601944,10999.800437441067
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IT,Italy,2023,24592.51,ITA,CH2023,1453.4883720930231,7150.64953488372,0.624065,11458.180694132374
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,IT,Italy,2024,24797.02,ITA,CH2024,1500.0,6797.02,0.610785,11128.33484777786
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LT,Lithuania,2018,8690.66,LTU,CH2018,340.84288540132417,4600.54537518411,0.44662,10300.80465537618
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LT,Lithuania,2019,9794.92,LTU,CH2019,364.02020160861434,5426.677580696628,0.431815,12567.135418400538
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LT,Lithuania,2020,10787.57,LTU,CH2020,390.5936763260432,6100.445884087481,0.433452,14074.097902622392
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LT,Lithuania,2021,11798.21,LTU,CH2021,453.47925821453606,6356.458901425566,0.439956,14447.94229746967
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LT,Lithuania,2022,13297.64,LTU,CH2022,539.6403172752979,6821.956192696425,0.471739,14461.293623585128
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LT,Lithuania,2023,14783.41,LTU,CH2023,592.5250683682772,7673.109179580673,0.504717,15202.795189345066
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LT,Lithuania,2024,15909.06,LTU,CH2024,650.0,8109.0599999999995,0.498947,16252.347443716466
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LU,Luxembourg,2018,42063.48,LUX,CH2018,1216.703170597042,27463.0419528355,0.848866,32352.62332669173
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LU,Luxembourg,2019,42650.77,LUX,CH2019,1339.5901908273431,26575.687710071878,0.829429,32040.943480481004
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LU,Luxembourg,2020,44374.32,LUX,CH2020,1533.8307684973079,25968.350778032305,0.838162,30982.495959053627
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LU,Luxembourg,2021,44934.82,LUX,CH2021,1747.0332453184335,23970.4210561788,0.834326,28730.281755787066
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LU,Luxembourg,2022,46884.89,LUX,CH2022,1914.7484368690034,23907.90875757196,0.8194,29177.335559643594
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LU,Luxembourg,2023,48797.5,LUX,CH2023,1740.506329113924,27911.42405063291,0.8533,32709.97779284298
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LU,Luxembourg,2024,50409.61,LUX,CH2024,1650.0,30609.61,0.842662,36324.896577750034
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LV,Latvia,2018,8474.82,LVA,CH2018,545.9993865601364,1922.8273612783632,0.489931,3924.6901324438813
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LV,Latvia,2019,9144.05,LVA,CH2019,595.1393313505488,2002.3780237934134,0.479802,4173.342386637432
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LV,Latvia,2020,9786.84,LVA,CH2020,615.969207947818,2395.2095046261848,0.469668,5099.792842233631
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LV,Latvia,2021,11229.49,LVA,CH2021,683.1098516141299,3032.1717806304423,0.464112,6533.275977846817
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LV,Latvia,2022,12147.46,LVA,CH2022,777.3790111368797,2818.9118663574427,0.480677,5864.461720359915
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LV,Latvia,2023,13418.0,LVA,CH2023,806.1420345489443,3744.2955854126685,0.501585,7464.92735112228
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,LV,Latvia,2024,14550.22,LVA,CH2024,840.0,4470.219999999999,0.492149,9083.062243345003
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NL,Netherlands,2018,35838.18,NLD,CH2018,1125.937405573976,22326.931133112288,0.776747,28744.148523408894
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NL,Netherlands,2019,37402.24,NLD,CH2019,1207.0048987753025,22918.181214696368,0.767329,29867.476942349847
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NL,Netherlands,2020,39142.87,NLD,CH2020,1303.5652906773269,23500.08651187208,0.747828,31424.45390099338
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NL,Netherlands,2021,40660.61,NLD,CH2021,1492.5822578255395,22749.622906093526,0.741535,30679.095263330153
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NL,Netherlands,2022,42311.5,NLD,CH2022,1691.095698116336,22018.35162260397,0.727716,30256.79196637695
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NL,Netherlands,2023,45156.38,NLD,CH2023,1658.9648798521255,25248.801441774493,0.76264,33107.103537415416
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NL,Netherlands,2024,47892.48,NLD,CH2024,1795.0,26352.480000000003,0.74837,35213.1699560378
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NO,Norway,2018,44692.89,NOR,CH2018,1068.7098523193517,31868.37177216778,0.9985940139514375,31913.241344262216
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NO,Norway,2019,45219.15,NOR,CH2019,1111.4582464121258,31881.65104305449,0.9624474005433621,33125.603565509446
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NO,Norway,2020,42534.89,NOR,CH2020,1165.91970048632,28543.85359416416,0.8942008823858776,31921.075181679964
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NO,Norway,2021,46935.39,NOR,CH2021,1273.1843129310616,31657.17824482726,0.8840314593507675,35810.01321839415
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NO,Norway,2022,49209.04,NOR,CH2022,1348.302187393994,33029.41375127208,0.8443883823632667,39116.37635140082
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NO,Norway,2023,45795.1,NOR,CH2023,1365.8301158301158,29405.138610038608,0.8054722222355708,36506.70724364061
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,NO,Norway,2024,47231.87,NOR,CH2024,1415.0,30251.870000000003,0.7939769257372916,38101.69920480742
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PL,Poland,2018,9618.59,POL,CH2018,479.62263686074436,3863.118357671068,0.4102851538893835,9415.691308958742
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PL,Poland,2019,10225.78,POL,CH2019,521.349806267629,3969.5823247884528,0.3952321203314777,10043.673377202234
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PL,Poland,2020,11376.35,POL,CH2020,576.09153592573,4463.251568891241,0.3822116367910718,11677.435062844479
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PL,Poland,2021,11134.57,POL,CH2021,629.0919572308973,3585.466513229232,0.38394751268895033,9338.428807934348
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PL,Poland,2022,12503.72,POL,CH2022,703.3248081841432,4063.82230179028,0.3900105461180305,10419.775419509884
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PL,Poland,2023,14487.18,POL,CH2023,765.2173913043479,5304.571304347826,0.4383425705013455,12101.428565974848
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PL,Poland,2024,17002.36,POL,CH2024,880.0,6442.360000000001,0.45920571627794193,14029.3549745375
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PT,Portugal,2018,12401.75,PRT,CH2018,861.9100698143859,2058.829162227368,0.571227,3604.2224233577335
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PT,Portugal,2019,12823.4,PRT,CH2019,948.1010767958244,1446.1870784501061,0.550687,2626.150750698865
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PT,Portugal,2020,12934.79,PRT,CH2020,1031.5339715538569,556.3823413537175,0.542815,1024.9944112703545
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PT,Portugal,2021,13502.54,PRT,CH2021,1128.4981648799196,-39.4379785590354,0.540472,-72.96951286844721
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PT,Portugal,2022,14213.56,PRT,CH2022,1270.6889336547893,-1034.7072038574715,0.524723,-1971.9112824432539
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PT,Portugal,2023,15301.09,PRT,CH2023,1374.885426214482,-1197.535114573784,0.534046,-2242.3819569358893
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,PT,Portugal,2024,16946.92,PRT,CH2024,1500.0,-1053.0800000000017,0.52649,-2000.189937130813
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,SE,Sweden,2018,32688.36,SWE,CH2018,1099.717169859384,19491.75396168739,0.8642676590098101,22552.913739730884
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,SE,Sweden,2019,32427.59,SWE,CH2019,1127.210099105869,18901.068810729572,0.8106477960500637,23316.00591875573
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,SE,Sweden,2020,33366.68,SWE,CH2020,1174.5529232683152,19272.044920780216,0.8045602745895689,23953.512905681906
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,SE,Sweden,2021,35485.73,SWE,CH2021,1293.182768518415,19967.536777779023,0.8243003353022352,24223.618410221552
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,SE,Sweden,2022,35188.72,SWE,CH2022,1339.737348185078,19111.871821779067,0.792702711339714,24109.759621584846
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,SE,Sweden,2023,34207.06,SWE,CH2023,1268.731268731269,18982.28477522477,0.7636516660235919,24857.255761736713
+Annual net earnings,Annual,Euro,Single person without children earning 100% of the average earning,SE,Sweden,2024,36147.03,SWE,CH2024,1270.0,20907.03,0.7511764375257818,27832.382587589393
