@@ -7,10 +7,11 @@ same column layout the databrowser produces so etl.py works unchanged.
 API reference: https://wikis.ec.europa.eu/display/EUROSTATHELP/API+-+Getting+started+with+statistics+API
 
 Usage:
-    python download_data.py            # writes net_earnings.csv
+    python download_data.py            # writes data/net_earnings.csv
     python download_data.py out.csv    # writes to a custom path
 """
 
+import os
 import sys
 
 import pandas as pd
@@ -33,8 +34,9 @@ DIMENSION_LABEL_COLUMNS = {
 }
 
 
-def download_net_earnings(out_path='net_earnings.csv'):
+def download_net_earnings(out_path='data/net_earnings.csv'):
     print(f"[INFO] Downloading EARN_NT_NET (EUR, NET) from the Eurostat API...")
+    os.makedirs(os.path.dirname(out_path) or '.', exist_ok=True)
     df = pd.read_csv(EARN_NT_NET_URL, dtype=str)
 
     # Header cells arrive as "code: Label" too - keep only the code part
@@ -62,4 +64,4 @@ def download_net_earnings(out_path='net_earnings.csv'):
 
 
 if __name__ == '__main__':
-    download_net_earnings(sys.argv[1] if len(sys.argv) > 1 else 'net_earnings.csv')
+    download_net_earnings(sys.argv[1] if len(sys.argv) > 1 else 'data/net_earnings.csv')

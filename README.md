@@ -2,18 +2,22 @@
 
 Analysis of the financial viability of living in various European countries by comparing net earnings (after taxes) minus monthly housing rent, adjusted for purchasing power parity (PPP).
 
+📄 **[Management Summary (Deutsch)](MANAGEMENT_SUMMARY.md)** — one-page overview of the key findings.
+
 ## Data
+
+All input files live in `data/`:
 
 | Source | File | Description |
 |--------|------|-------------|
-| [Eurostat EARN_NT_NET](https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table?lang=en) | `net_earnings.csv` | Annual net earnings (after taxes) by country, in EUR — **not stored in the repo**, downloaded via the Eurostat API (see below) |
-| [Eurostat PRC_COLC_RENTS](https://ec.europa.eu/eurostat/databrowser/view/prc_colc_rents/default/table?lang=en) | `average_rent_by_city.csv` | Average monthly rent by city and year, 1-bedroom apartments, in EUR |
-| [World Bank PA.NUS.PPP](https://data.worldbank.org/indicator/PA.NUS.PPP) | `worldbank_ppp.csv` | PPP conversion factor (LCU per international $) |
-| [ECB eurofxref-hist](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html) | `eurofxref-hist.csv` | Historical exchange rates for EUR (daily) |
+| [Eurostat EARN_NT_NET](https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table?lang=en) | `data/net_earnings.csv` | Annual net earnings (after taxes) by country, in EUR — **not stored in the repo**, downloaded via the Eurostat API (see below) |
+| [Eurostat PRC_COLC_RENTS](https://ec.europa.eu/eurostat/databrowser/view/prc_colc_rents/default/table?lang=en) | `data/average_rent_by_city.csv` | Average monthly rent by city and year, 1-bedroom apartments, in EUR |
+| [World Bank PA.NUS.PPP](https://data.worldbank.org/indicator/PA.NUS.PPP) | `data/worldbank_ppp.csv` | PPP conversion factor (LCU per international $) |
+| [ECB eurofxref-hist](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html) | `data/eurofxref-hist.csv` | Historical exchange rates for EUR (daily) |
 
 ### Downloading the earnings data
 
-`net_earnings.csv` (~2 MB filtered vs ~42 MB full databrowser export) is fetched from the
+`data/net_earnings.csv` (~2 MB filtered vs ~42 MB full databrowser export) is fetched from the
 [Eurostat dissemination API](https://wikis.ec.europa.eu/display/EUROSTATHELP/API+-+Getting+started+with+statistics+API)
 (SDMX 3.0, dataset `earn_nt_net`, filtered to `currency=EUR`, `estruct=NET`):
 
@@ -79,13 +83,13 @@ pip install -r requirements.txt
 
 ### Execution
 ```bash
-python download_data.py   # first run only: fetch net_earnings.csv from the Eurostat API
+python download_data.py   # first run only: fetch data/net_earnings.csv from the Eurostat API
 python analysis.py
 ```
 
-Non-interactive mode is also supported:
+Non-interactive mode is also supported; `--excel` additionally builds a formatted Excel report:
 ```bash
-python analysis.py --case 6 --start-year 2018 --save-plots
+python analysis.py --case 6 --start-year 2018 --save-plots --excel
 ```
 
 ### CLI Interface
@@ -107,18 +111,22 @@ When started without arguments, you will be prompted to choose:
 
 ### Output Files
 
+Everything generated lands in `output/` (git-ignored):
+
 | File | Description |
 |------|-------------|
-| `countries.csv` | Full analysis results: salary, rent, PPP, and disposable income by year |
-| `countries_summary.csv` | Simplified version containing only key columns (`geo`, `TIME_PERIOD`, `OBS_VALUE`, `rent_EUR`, `salary_minus_housing_EUR`, `ppp_factor`, `salary_minus_housing`) with numeric values rounded to max 3 decimal places |
-| `countries_in_2024.csv` | Specific analysis focusing only on the year 2024 |
+| `output/countries.csv` | Full analysis results: salary, rent, PPP, and disposable income by year |
+| `output/countries_summary.csv` | Simplified version containing only key columns (`geo`, `TIME_PERIOD`, `OBS_VALUE`, `rent_EUR`, `salary_minus_housing_EUR`, `ppp_factor`, `salary_minus_housing`) with numeric values rounded to max 3 decimal places |
+| `output/countries_in_2024.csv` | Specific analysis focusing only on the year 2024 |
+| `output/salary_report.xlsx` | Formatted Excel report (`--excel`): country ranking with conditional formatting and an embedded chart, per-year matrix, methodology sheet |
 
 ### Visualizations
 
-The program generates 3 figures:
+The program generates 4 figures (saved to `output/plots/` with `--save-plots`):
 1. **Line Plot** - Annual disposable income trends for each country.
-2. **Bar Chart** - Average disposable income with 95% confidence intervals.
-3. **Bar Chart (2024)** - Side-by-side comparison of countries in the year 2024 (sorted by value).
+2. **Highlight Plot** - Management-summary version: selected countries in colour, the rest as grey context.
+3. **Bar Chart** - Average disposable income with 95% confidence intervals.
+4. **Bar Chart (2024)** - Side-by-side comparison of countries in the year 2024 (sorted by value).
 
 ## Example Results
 
@@ -166,17 +174,24 @@ Average annual disposable income after rent, 2018–2024, single person without 
 ## Project Structure
 
 ```
-├── analysis.py                # Main analysis script (CLI + plots + t-test)
-├── etl.py                     # Data loading and harmonisation layer
-├── download_data.py           # Fetches net_earnings.csv from the Eurostat API
-├── tests/                     # Unit tests
-├── README.md                  # Project documentation (this file)
-├── requirements.txt           # Python dependencies
-├── net_earnings.csv           # [downloaded] Salary data (Eurostat API)
-├── average_rent_by_city.csv   # Rent data (Eurostat)
-├── worldbank_ppp.csv          # PPP coefficients (World Bank)
-├── eurofxref-hist.csv         # Exchange rates (ECB)
-├── countries.csv              # [output] Full analysis results
-├── countries_summary.csv      # [output] Simplified results
-└── countries_in_2024.csv      # [output] Analysis for 2024
+├── analysis.py                    # Main analysis script (CLI + plots + t-test)
+├── etl.py                         # Data loading and harmonisation layer
+├── excel_report.py                # Formatted Excel report (openpyxl)
+├── download_data.py               # Fetches net_earnings.csv from the Eurostat API
+├── tests/                         # Unit tests
+├── README.md                      # Project documentation (this file)
+├── MANAGEMENT_SUMMARY.md          # One-page summary of key findings (German)
+├── docs/img/                      # Charts embedded in the management summary
+├── requirements.txt               # Python dependencies
+├── data/
+│   ├── net_earnings.csv           # [downloaded] Salary data (Eurostat API)
+│   ├── average_rent_by_city.csv   # Rent data (Eurostat)
+│   ├── worldbank_ppp.csv          # PPP coefficients (World Bank)
+│   └── eurofxref-hist.csv         # Exchange rates (ECB)
+└── output/                        # [generated, git-ignored]
+    ├── countries.csv              # Full analysis results
+    ├── countries_summary.csv      # Simplified results
+    ├── countries_in_2024.csv      # Analysis for 2024
+    ├── salary_report.xlsx         # Formatted Excel report
+    └── plots/                     # PNG figures
 ```

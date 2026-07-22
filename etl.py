@@ -32,7 +32,7 @@ CURRENCY_COUNTRY_MAPPING = {
 EUROZONE_PPP_ALREADY_EUR = {'HRV', 'LTU', 'LVA', 'MLT'}  # Joined: 2023, 2015, 2014, 2008
 
 
-def load_earnings(path='net_earnings.csv'):
+def load_earnings(path='data/net_earnings.csv'):
     """Load Eurostat net earnings, keep nominal EUR / NET rows, add 3-letter codes."""
     df = pd.read_csv(path)
     countries = df[(df['currency'] == 'EUR') & (df['estruct'] == 'NET')].copy()
@@ -41,7 +41,7 @@ def load_earnings(path='net_earnings.csv'):
     return countries
 
 
-def load_rent(path='average_rent_by_city.csv', verbose=True):
+def load_rent(path='data/average_rent_by_city.csv', verbose=True):
     """Load Eurostat rent data for 1-bedroom flats in EUR.
 
     For each country prefers the capital city series (geo suffix _CAP) and falls
@@ -80,7 +80,7 @@ def load_rent(path='average_rent_by_city.csv', verbose=True):
     return rent_selected, rent_pivot
 
 
-def load_annual_exchange_rates(path='eurofxref-hist.csv'):
+def load_annual_exchange_rates(path='data/eurofxref-hist.csv'):
     """Average ECB daily reference rates into annual LCU-per-EUR rates.
 
     Returns a DataFrame indexed by 3-letter country code with one column per year.
@@ -98,7 +98,7 @@ def load_annual_exchange_rates(path='eurofxref-hist.csv'):
     return fx_by_year
 
 
-def load_ppp(path='worldbank_ppp.csv'):
+def load_ppp(path='data/worldbank_ppp.csv'):
     """Load World Bank PPP factors (LCU per international $), drop metadata columns."""
     ppprate = pd.read_csv(path)
     cols_to_drop = ["Country Name", "Indicator Name", "Indicator Code"] + [str(y) for y in range(1960, 2000)]

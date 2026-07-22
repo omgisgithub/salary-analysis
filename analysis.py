@@ -32,6 +32,20 @@ EARNINGS_CASES = {
 
 MIN_YEAR, MAX_YEAR = 2000, 2025
 
+OUTPUT_DIR = 'output'
+
+# Countries emphasised in the management-summary chart; everything else is
+# drawn as light-grey context so the figure stays readable.
+HIGHLIGHT_COUNTRIES = {
+    'CHE': '#c0392b', 'NLD': '#e67e22', 'AUT': '#1f77b4',
+    'DEU': '#2c3e50', 'CZE': '#16a085', 'HUN': '#8e44ad',
+}
+
+
+def _out(name):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    return os.path.join(OUTPUT_DIR, name)
+
 
 def compute_disposable_income(salary_eur, monthly_rent_eur, ppp_factor_eur_per_intl):
     """Core formula: (annual salary EUR - 12 * monthly rent EUR) / (EUR per intl$).
@@ -76,7 +90,7 @@ def analyze_2024(data, earnings_case, save_dir=None, show=True):
     merged_df.dropna(subset=['Country Code', 'year_salary_minus_housing'], inplace=True)
     out_cols = ['geo', 'Country Code', 'Earnings case', 'TIME_PERIOD', 'OBS_VALUE',
                 'rent_EUR', 'salary_minus_housing_EUR', 'ppp_factor', 'year_salary_minus_housing']
-    merged_df[[c for c in out_cols if c in merged_df.columns]].to_csv('countries_in_2024.csv', index=False)
+    merged_df[[c for c in out_cols if c in merged_df.columns]].to_csv(_out('countries_in_2024.csv'), index=False)
 
     merged_df = merged_df.sort_values('year_salary_minus_housing', ascending=True)
     labels = [FULL_COUNTRY_NAMES.get(c, c) for c in merged_df['Country Code']]
@@ -129,13 +143,13 @@ def analyze_period(data, earnings_case, start_year, save_dir=None, show=True):
     merged_df = merged_df.drop([c for c in cols_to_drop if c in merged_df.columns], axis=1, errors='ignore')
 
     merged_df = merged_df.dropna(subset=['Country Code', 'salary_minus_housing'])
-    merged_df.to_csv('countries.csv', index=False)
+    merged_df.to_csv(_out('countries.csv'), index=False)
 
     easy_cols = ['geo', 'TIME_PERIOD', 'OBS_VALUE', 'rent_EUR', 'salary_minus_housing_EUR', 'ppp_factor', 'salary_minus_housing']
     easy_df = merged_df[easy_cols].copy()
     for col in easy_cols[2:]:
         easy_df[col] = easy_df[col].round(3)
-    easy_df.to_csv('countries_summary.csv', index=False)
+    easy_df.to_csv(_out('countries_summary.csv'), index=False)
 
     # --- Visualization 1: Line Plot of Disposable Income Over Time ---
     plt.figure(figsize=(14, 8))
@@ -185,7 +199,35 @@ def analyze_period(data, earnings_case, start_year, save_dir=None, show=True):
     return merged_df
 
 
-def run_t_test(code1, code2, results_path='countries.csv'):
+def plot_trend_highlight(merged_df, earnings_case, save_dir=None, show=True):
+    """Management-summary version of the trend plot.
+
+    Highlights a handful of countries in colour (incl. Austria) and draws the
+    rest as grey context lines, so the figure stays legible with 20+ series.
+    """
+    plt.figure(figsize=(11, 6.5))
+    for country in sorted(merged_df['Country Code'].unique()):
+        country_data = merged_df[merged_df['Country Code'] == country].sort_values('TIME_PERIOD')
+        if country in HIGHLIGHT_COUNTRIES:
+            plt.plot(country_data['TIME_PERIOD'], country_data['salary_minus_housing'],
+                     marker='o', markersize=4, linewidth=2.2,
+                     color=HIGHLIGHT_COUNTRIES[country],
+                     label=FULL_COUNTRY_NAMES.get(country, country), zorder=3)
+        else:
+            plt.plot(country_data['TIME_PERIOD'], country_data['salary_minus_housing'],
+                     linewidth=1, color='lightgray', zorder=1)
+
+    plt.axhline(0, color='dimgray', linewidth=0.8, linestyle='--', zorder=2)
+    plt.xlabel('Year', fontsize=11)
+    plt.ylabel('Disposable income after rent (intl. $, PPP)', fontsize=11)
+    plt.title(f'Disposable Income After Housing Costs - Selected Countries\n({earnings_case})', fontsize=12)
+    plt.legend(loc='upper left', fontsize=9, framealpha=0.9)
+    plt.grid(True, alpha=0.25)
+    plt.tight_layout()
+    _finish_plot('summary_highlight.png', save_dir, show)
+
+
+def run_t_test(code1, code2, results_path='output/countries.csv'):
     """Paired t-test between two countries on overlapping years of disposable income."""
     code1, code2 = code1.upper().strip(), code2.upper().strip()
     t_test_df = pd.read_csv(results_path)
@@ -282,7 +324,9 @@ def parse_args():
     parser.add_argument('--t-test', nargs=2, metavar=('CODE1', 'CODE2'),
                         help='Run a paired t-test between two 3-letter country codes (e.g. AUT DEU)')
     parser.add_argument('--save-plots', action='store_true',
-                        help='Save figures as PNG into plots/ instead of opening interactive windows')
+                        help='Save figures as PNG into output/plots/ instead of opening interactive windows')
+    parser.add_argument('--excel', action='store_true',
+                        help='Also write a formatted Excel report to output/salary_report.xlsx')
     args = parser.parse_args()
     if args.start_year is not None and not (MIN_YEAR <= args.start_year <= MAX_YEAR):
         parser.error(f'--start-year must be between {MIN_YEAR} and {MAX_YEAR}')
@@ -298,13 +342,18 @@ def main():
     print(f"You have chosen starting year: {start_year}")
     t_test_pair = tuple(args.t_test) if args.t_test else (None if args.case and args.start_year else _prompt_t_test())
 
-    save_dir = 'plots' if args.save_plots else None
+    save_dir = os.path.join(OUTPUT_DIR, 'plots') if args.save_plots else None
     show = not args.save_plots
 
     data = load_all()
-    analyze_period(data, earnings_case, start_year, save_dir=save_dir, show=show)
+    merged_df = analyze_period(data, earnings_case, start_year, save_dir=save_dir, show=show)
+    plot_trend_highlight(merged_df, earnings_case, save_dir=save_dir, show=show)
     if start_year <= 2024:
         analyze_2024(data, earnings_case, save_dir=save_dir, show=show)
+
+    if args.excel:
+        from excel_report import build_excel_report
+        build_excel_report(merged_df, earnings_case, start_year, _out('salary_report.xlsx'))
 
     if t_test_pair:
         run_t_test(*t_test_pair)
