@@ -141,7 +141,7 @@ Average annual disposable income after rent, 2018–2024, single person without 
 | 23 | 🇭🇺 Hungary | −4,228 |
 | 24 | 🇵🇹 Portugal | −6,053 |
 
-*(Figures reflect the Eurostat data revision of 2024 values — e.g., the Netherlands and Germany 2024 earnings were revised downward, flagged `b` (break in time series) by Eurostat.)*
+*(Figures reflect the Eurostat data revision of 2024 values — e.g., the Netherlands and Germany 2024 earnings were revised downward, flagged `b` (break in time series) by Eurostat. Switzerland's 2024 value was withdrawn entirely, so its average covers 2018–2023 and it is absent from the 2024 single-year chart.)*
 
 > **Negative values** mean that the monthly rent for a 1-bedroom apartment in the capital city exceeds the net salary for the selected income level.
 
