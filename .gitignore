@@ -1,0 +1,18 @@
+# Generated analysis outputs
+countries.csv
+countries_summary.csv
+countries_in_2024.csv
+plots/
+
+# Downloaded data (regenerate with: python download_data.py)
+net_earnings.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store
